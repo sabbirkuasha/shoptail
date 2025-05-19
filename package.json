@@ -1,0 +1,27 @@
+{
+  "name": "shoptail",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"shopify theme dev -e development\" \"npx @tailwindcss/cli -i ./assets/tailwind.input.css -o ./assets/tailwind.output.css --watch\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sabbirkuasha/shoptail.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sabbirkuasha/shoptail/issues"
+  },
+  "homepage": "https://github.com/sabbirkuasha/shoptail#readme",
+  "description": "",
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.7",
+    "concurrently": "^9.1.2",
+    "tailwindcss": "^4.1.7"
+  }
+}
