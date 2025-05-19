@@ -1,0 +1,8 @@
+{%  assign text = null %} 
+
+{{ text }}
+{% if text == null %}
+<h3 class=" border bg-amber-500 px-20">Text is NULL & value is: {{ text }}</h3>
+{% else %}
+<h3 class=" border bg-amber-500 px-20">Text is NOT NULL & value is: {{ text }}</h3>
+{% endif %}
