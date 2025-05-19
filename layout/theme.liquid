@@ -310,8 +310,10 @@
 
     {% sections 'header-group' %}
 
-    <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
-      <h1>Hello World</h1>
+    <div class="bg-gray-400">
+      <h1 class="ring border p-5">Hello World</h1>
+    </div> 
+    <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1"> 
       {{ content_for_layout }}
     </main>
 
